@@ -6,3 +6,11 @@
   height: 80vh;
   background-position: center;
 }
+
+.display-4 {
+  color: azure;
+}
+
+.BOLD {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
