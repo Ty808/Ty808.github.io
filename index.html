@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--bootstrap CSS-->
+    <!--BOOTSTRAP CSS-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <!--nav bar-->
+    <!--NAV BAR-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <a class="navbar-brand" href="#">TB</a>
       <button
@@ -38,10 +38,10 @@
             <a class="nav-link" href="#section-one">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Social Media</a>
+            <a class="nav-link" href="Section-two">Social Media</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="section-three">Contact</a>
           </li>
         </ul>
       </div>
@@ -57,42 +57,29 @@
       </div>
     </div>
 
-    <!--Carousel of personal photos-->
+    <!--CAROUSEL OF PERSONAL PHOTOS-->
     <div
       class="container-fluid"
       style="background-color: black; padding: 20px 0;"
-      id="section-one"
     >
       <div class="row">
         <div class="col-md-6 offset-md-3 col-sm-12">
           <div
-            id="carouselExampleFade"
+            id="carousel-Fade"
             class="carousel slide carousel-fade home-carousel"
             data-ride="carousel"
           >
             <ol class="carousel-indicators">
               <li
-                data-target="#carouselExampleIndicators"
+                data-target="#carousel-Indicators"
                 data-slide-to="0"
                 class="active"
               ></li>
 
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="1"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="2"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="3"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="4"
-              ></li>
+              <li data-target="#carousel-Indicators" data-slide-to="1"></li>
+              <li data-target="#carousel-Indicators" data-slide-to="2"></li>
+              <li data-target="#carousel-Indicators" data-slide-to="3"></li>
+              <li data-target="#carousel-Indicators" data-slide-to="4"></li>
             </ol>
 
             <div class="carousel-inner">
@@ -184,8 +171,22 @@
       </div>
     </div>
 
-    <!--Contact form-->
-    <div class="container">
+    <!--ABOUT ME SECTION-->
+    <div class="container-fluid" id="section-one">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 col-sm-12"></div>
+      </div>
+    </div>
+
+    <!--SOCIAL MEDIA SECTION-->
+    <div class="container" id="Section-two">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 col-sm-12"></div>
+      </div>
+    </div>
+
+    <!--CONTACT FORM-->
+    <div class="container" id="section-three">
       <div class="row">
         <div class="col-md-6 offset-md-3 col-sm-12">
           <form>
@@ -222,7 +223,7 @@
       </div>
     </div>
 
-    <!--Java script Query-->
+    <!--JAVA SCRIPT QUERY-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
