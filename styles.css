@@ -14,3 +14,8 @@
 .BOLD {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.img-home {
+  height: 500px;
+  width: 1000px;
+}
