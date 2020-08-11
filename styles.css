@@ -32,12 +32,29 @@
   text-align: center;
   border-radius: 100%;
   border: black;
+  margin-top: 30px;
 }
 
+/* Set height and width using pixels */
+/* One of these should be set as auto */
 .image-man {
   height: 100%;
   width: 100%;
 }
+
 .about {
   text-align: center;
+}
+
+.about-link {
+  list-style-type: none;
+  padding: 30px 0;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.contact-section {
+  padding: 50px 0;
 }
